@@ -37,7 +37,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "Hello branching and merging! CI/CD Hello World",
+            "message": "CI/CD Hello World",
             # "location": ip.text.replace("\n", "")
         }),
     }
